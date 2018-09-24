@@ -1,0 +1,93 @@
+/* EIGHTH PAGE OF WEBSITE */
+
+
+/*-----BUTTONS-----*/
+
+.btn:link, 
+.btn:visited, 
+input[type=submit] {             /* These buttons are now also gonna be in the conact form */
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    cursor: pointer;            /* *** Turns default cursor into a pointer; do this with all type=submit buttonos *** */
+}
+
+.btn-full:link, 
+.btn-full:visited,  
+input[type=submit] {            /* These buttons are now also gonna be in the conact form */
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;           /* *** Turns default cursor into a pointer; do this with all type=submit buttonos *** */
+}
+
+.btn-ghost:link, 
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn:hover,
+.btn:active, 
+ input[type=submit]:hover,     /* The contact "Send it" button now does hovering and active as well */
+ input[type=submit]:active {
+    background-color: #cf6d17;
+     cursor: pointer;          /* *** Turns default cursor into a pointer; do this with all type=submit buttonos *** */
+}
+
+.btn-full:hover, 
+.btn-full:active, 
+input[type=submit] {            /* These buttons are now also gonna be in the conact form */
+    border: 1px solid #cf6d17;
+    cursor: pointer;            /* *** Turns default cursor into a pointer; do this with all type=submit buttonos *** */
+}
+
+.btn-ghost:hover, 
+.btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+
+/* ----------------------------------------------------------------- */
+/* FORM */
+/* ----------------------------------------------------------------- */
+
+
+
+.contact-form {    
+    width:60;
+    margin: 0 auto;
+}
+
+
+input[type=text],       /* All input elements that have the type "text"  */
+input[type=email],      /* All input elements that have the type "email" */
+select, 
+textarea {
+    width: 100%;        /* So they fill there whole column */
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;    /* Gets rid of weird border */
+}
+
+
+textarea {
+    height: 100px;
+    
+}
+
+
+
+.input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+
+
+*:focus {outline: none;}
+
